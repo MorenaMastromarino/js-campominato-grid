@@ -15,10 +15,12 @@
   <header>
     <div class="container">
       <div class="row">
+
         <div class="col">
           <img src="img/logo-boolean.png" alt="Boolean Logo">
           <h1>Campo Minato</h1>
         </div>
+
         <div class="col text-end">
           <label for="difficulty">Difficoltà:</label>
           <select  name="difficulty" id="difficulty">
@@ -28,6 +30,7 @@
           </select>
           <button type="button" class="play-button">Play</button>
         </div>
+
       </div>
 
       
@@ -35,12 +38,16 @@
   </header>
 
   <main>
-    <div class="grid"></div>
+    <div class="default-text">
+      <p>Seleziona il livello di difficoltà e genera la griglia</p>
+    </div>
+    <div class="grid clearfix d-none">    
+    </div>
   </main>
 
   <footer>
     <div class="container align-items-center">
-      <p>Made with &hearts; by <a href="#">Boolean</a></p>
+      <p class="mb-0">Made with &hearts; by <a href="#">Boolean</a></p>
     </div>
   </footer>
   

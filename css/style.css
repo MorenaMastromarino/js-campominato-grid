@@ -36,11 +36,46 @@ main{
   height: calc(100vh - 110px);
 }
 
+main .default-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .grid {
-  background-color: white; /*togliere*/
   height: 500px;
   width: 500px;
 }
+
+.grid .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.square.clicked {
+  background-color: #6395ED;
+  color: white;
+}
+
+.square.easy {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.square.hard {
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.square.crazy {
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
+
+
 
 
 /* FOOTER */
